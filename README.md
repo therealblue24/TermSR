@@ -6,5 +6,7 @@ It just renders a view to the terminal screen. Very horrible, indeed, don't actu
 
 # Build (Demo)
 ```sh
-$ clang main.c termsr.c -o main
+$ clang main.c termsr.c -lm -o main
+# 1 = scale
+$ ./main 1
 ```
